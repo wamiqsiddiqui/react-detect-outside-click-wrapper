@@ -1,6 +1,6 @@
 {
   "name": "react-detect-outside-click-wrapper",
-  "version": "1.1.1",
+  "version": "1.0.0",
   "description": "A lightweight and reusable React wrapper component that detects clicks outside its children. Perfect for dropdowns, modals, popovers, or any UI that should close when the user clicks outside. Supports optional toggle button refs and TypeScript out of the box.",
   "main": "./dist/react-detect-outside-click-wrapper.umd.js",
   "module": "./dist/react-detect-outside-click-wrapper.es.js",
