@@ -1,0 +1,53 @@
+{
+  "name": "react-detect-outside-click-wrapper",
+  "version": "1.1.1",
+  "description": "A lightweight and reusable React wrapper component that detects clicks outside its children. Perfect for dropdowns, modals, popovers, or any UI that should close when the user clicks outside. Supports optional toggle button refs and TypeScript out of the box.",
+  "main": "./dist/react-detect-outside-click-wrapper.umd.js",
+  "module": "./dist/react-detect-outside-click-wrapper.es.js",
+  "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wamiqsiddiqui/react-detect-outside-click-wrapper.git"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/react-detect-outside-click-wrapper.es.js",
+      "require": "./dist/react-detect-outside-click-wrapper.umd.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.2",
+    "@vitejs/plugin-react": "^5.0.4",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.7",
+    "vite-plugin-dts": "^4.5.4"
+  },
+  "author": "Muhammad Wamiq Siddiqui",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "detect-click-outside",
+    "click-outside",
+    "react-click-outside",
+    "outside-click",
+    "dropdown",
+    "popover",
+    "modal",
+    "typescript",
+    "react-component",
+    "hooks"
+  ]
+}
