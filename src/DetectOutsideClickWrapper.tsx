@@ -40,7 +40,7 @@ export const DetectOutsideClickWrapper: React.FC<ClickOutsideProps> = ({
     }
   }, [handleClickListener])
   return (
-    <div className={`${className ?? ""} contents`} ref={wrapperRef}>
+    <div className={className} ref={wrapperRef}>
       {children}
     </div>
   )
